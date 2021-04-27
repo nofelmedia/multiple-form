@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="contaner">
+       <header>Login Form</header>
+       <div class="progress-bar">
+           <div class="step">
+               <p>Name</p>
+               <div class="bullet">
+                   <span>1</span>
+               </div>
+               <div class="check fas fa-check"></div>
+           </div>
+           <div class="step">
+               <p>Contrack</p>
+               <div class="bullet">
+                   <span>2</span>
+               </div>
+                <div class="check fas fa-check"></div>
+           </div>
+           <div class="step">
+               <p>Birthday</p>
+               <div class="bullet">
+                   <span>3</span>
+               </div>
+                <div class="check fas fa-check"></div>
+           </div>
+           <div class="step">
+               <p>Submit</p>
+               <div class="bullet">
+                   <span>4</span>
+               </div>
+                <div class="check fas fa-check"></div>
+           </div>
+       </div>
+       <div class="form-outer">
+           <form action="#">
+               <div class="page slidpage">
+                   <div class="tittle">Basic Info :</div>
+                   <div class="field">
+                       <div class="lable">First Name</div>
+                       <input type="text" placeholder="First Name">
+                   </div>
+                   <div class="field">
+                       <div class="lable">Last Name</div>
+                       <input type="text" placeholder="Last Name">
+                   </div>
+                   <div class="field nextBtn">
+                      <button class="btn-First">Next</button>
+                   </div>
+               </div>
+
+               <div class="page">
+                   <div class="tittle">Contract Info :</div>
+                   <div class="field">
+                       <div class="lable">E-mail Address</div>
+                       <input type="email" placeholder="E-mail Address">
+                   </div>
+                   <div class="field">
+                       <div class="lable">Phone Number</div>
+                       <input type="number" placeholder="Phone Number">
+                   </div>
+                   <div class="field btns">
+                      <button class="prev-1 prev">Previous</button>
+                      <button class="next-1 next">Next</button>
+                   </div>
+               </div>
+
+                <div class="page">
+                   <div class="tittle">Date of Birth</div>
+                   <div class="field">
+                       <div class="lable">Date</div>
+                       <input type="DOM" placeholder="DD/MM/YY">
+                   </div>
+                   <div class="field">
+                       <div class="lable">Gender</div>
+                       <select>
+                           <option>Select </option>
+                           <option>Male</option>
+                           <option>Feale</option>
+                           <option>Others</option>
+                       </select>
+                   </div>
+                   <div class="field btns">
+                      <button class="prev-2 prev">Previous</button>
+                      <button class="next-2 next">Next</button>
+                   </div>
+               </div>
+                
+               <div class="page">
+                   <div class="tittle">Loging Detales :</div>
+                   <div class="field">
+                       <div class="lable">Username</div>
+                       <input type="text" placeholder="Username">
+                   </div>
+                   <div class="field">
+                       <div class="lable">Password</div>
+                       <input type="password" placeholder="Password">
+                   </div>
+                   <div class="field btns">
+                      <button class="prev-3 prev">Previous</button>
+                      <button class="submit">Submit</button>
+                   </div>
+               </div>
+           </form>
+       </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
